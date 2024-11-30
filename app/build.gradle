@@ -1,5 +1,7 @@
 apply plugin: 'com.android.application'
 
+tasks.register("testClasses")
+
 android {
     compileSdk 34
     defaultConfig {

@@ -3,6 +3,8 @@ apply plugin: 'maven-publish'
 
 group = 'com.github.weliem'
 
+tasks.register("testClasses")
+
 android {
     namespace 'com.welie.blessed'
     compileSdk 34
